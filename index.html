@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkyu Jang</title>
+    <style>
+        body {
+            /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            font-size: 15px;
+        }
+
+        header {
+            align-items: center;
+            background-color: #eeeeee;
+            border-color: #000000;
+            padding: 0em;
+        }
+
+        div.navigation {
+            display: flex;
+            max-width: 850px;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.namecard {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 850px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.namecard img {
+            max-width: 200px;
+            border-radius: 70px
+        }
+
+        section {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        } */
+
+        a {
+            text-decoration: none;
+            color: #005090;
+        }
+        
+        a:visited {
+            color: #941352;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        h1 small {
+            font-size: 0.6em;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .projects {
+            margin-top: 20px;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .project:hover {
+            background-color: #e6e6e6; /* Change the color for hover effect */
+        }
+
+        .project img {
+            max-width: 100px; /* Adjust the width as needed */
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px; /* Added horizontal space between video and text */
+        }
+
+        .project div {
+            flex: 1;
+        }
+
+        .highlighted {
+            background-color: #ffeeba; /* Background color for important projects */
+        }
+
+        .highlighted:hover {
+            background-color: #ffcc80; /* Change the hover color for important projects */
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <p>
+            <a href="/">Home</a> |
+            <a href="/biography">Biography</a> |
+            <a href="/publications">Publications</a> |
+            <a href="/projects">Projects</a>
+        </p>
+    </div>
+    <header>
+        <div class="namecard">
+            <div>
+                <h1>Inkyu Jang <small>(장인규)</small></h1>
+                <p>
+                    Ph.D. Candidate <br>
+                    <a href="https://larr.snu.ac.kr" target="_blank">Lab for Autonomous Robotics Research (LARR)</a> <br>
+                    <a href="https://aerospace.snu.ac.kr" target="_blank">Department of Aerospace Engineering</a>, <a href="https://www.snu.ac.kr" target="_blank">Seoul National University</a>
+                </p>
+                <p>
+                    <a href="mailto:janginkyu.larr@gmail.com">Email</a> |
+                    <a href="/files/cv.pdf" target="_blank">Curriculum Vitae</a> |
+                    <a href="https://www.linkedin.com/in/inkyu-jang-78a78a191/" target="_blank">LinkedIn</a> |
+                    <a href="https://scholar.google.com/citations?user=4gB8qkgAAAAJ" target="_blank">Google Scholar</a>
+                </p>
+            </div>
+            <img src="/img/janginkyu.png" alt="Your Photo">
+        </div>
+    </header>
+
+    <section>
+        <p>
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+            Hi! 자기소개 자기소개 자기소개 자기소개 자기소개
+        </p>
+        <hr>
+        <h2>Research Interests</h2>
+        <ul>
+            <li>
+                Robot Safety
+            </li>
+            <li>
+                Receding-Horizon Motion Planning
+            </li>
+            <li>
+                Mobile Robot Navigation
+            </li>
+        </ul>
+        <hr>
+        <h2>Education</h2>
+        <div>
+            
+        </div>
+        <hr>
+        <h2>Publications</h2>
+        <hr>
+        <h2>Recent Projects</h2>
+        <div class="projects">
+            <div class="project highlighted" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                <video controls width="100">
+                    <source src="project1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div>
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1 goes here.</p>
+                </div>
+            </div>
+            <div class="project" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                <video controls width="100">
+                    <source src="project2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div>
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2 goes here.</p>
+                </div>
+            </div>
+            <div class="project highlighted" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                <video controls width="100">
+                    <source src="project3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div>
+                    <h3>Project 3</h3>
+                    <p>Description of Project 3 goes here.</p>
+                </div>
+            </div>
+            <div class="project" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                <video controls width="100">
+                    <source src="project4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div>
+                    <h3>Project 4</h3>
+                    <p>Description of Project 4 goes here.</p>
+                </div>
+            </div>
+            <div class="project" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                <video controls width="100">
+                    <source src="project5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div>
+                    <h3>Project 5</h3>
+                    <p>Description of Project 5 goes here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function playVideo(element) {
+            var video = element.querySelector('video');
+            video.play();
+        }
+
+        function pauseVideo(element) {
+            var video = element.querySelector('video');
+            video.pause();
+        }
+    </script>
+</body>
+</html>
