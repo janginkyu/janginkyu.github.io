@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="title" content="Inkyu Jang">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal homepage of Inkyu Jang">
     <title>Inkyu Jang</title>
     <style>
         body {
@@ -14,11 +16,27 @@
             font-size: 15px;
         }
 
-        header {
+        header, footer {
             align-items: center;
             background-color: #eeeeee;
             border-color: #000000;
             padding: 0em;
+        }
+
+        div.footer {
+            text-align: right;
+            max-width: 850px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            word-break: keep-all;
+        }
+
+        footer p {
+            font-size: 0.7em;
+            line-height: 0%;
         }
 
         div.navigation {
@@ -35,6 +53,7 @@
 
         div.namecard {
             display: flex;
+            flex-wrap: wrap-reverse;
             align-items: center;
             justify-content: space-between;
             max-width: 850px;
@@ -43,11 +62,30 @@
             padding: 20px;
             margin-left: auto;
             margin-right: auto;
+            word-break: keep-all;
+        }
+
+        div.namecard div.text {
+            display: block;
+            align-items: center;
+            max-width: 70%;
+            padding: 0px;
+            margin: 0px;
+            min-width: 300px;
         }
 
         div.namecard img {
-            max-width: 200px;
-            border-radius: 70px
+            width: 200px;
+            border-radius: 30%;
+        }
+
+        div.full-block>div.left {
+            text-align: left;
+            max-width: 70%;
+        }
+        div.full-block>div.right {
+            max-width: 30%;
+            text-align: right;
         }
 
         section {
@@ -56,24 +94,18 @@
             padding: 20px;
         }
 
-        /* img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        } */
+        table {
+            width: 100%;
+        }
 
         a {
             text-decoration: none;
             color: #005090;
         }
-        
-        a:visited {
-            color: #941352;
-        }
 
         a:hover {
             text-decoration: underline;
+            cursor: pointer;
         }
 
         h1 {
@@ -81,13 +113,18 @@
             margin-bottom: 0.5em;
         }
 
-        h1 small {
+        small {
+            font-weight:normal;
             font-size: 0.6em;
         }
 
         p {
             font-size: 1em;
             line-height: 1.5;
+        }
+
+        p>strong {
+            font-size: 1.2em;
         }
 
         .projects {
@@ -126,34 +163,53 @@
         .highlighted:hover {
             background-color: #ffcc80; /* Change the hover color for important projects */
         }
+
+        ol.pub {
+            font-size: 0.9em;
+            line-height: 1.3em;
+        }
+        ol.pub>li {
+            padding-left: 1em;
+            padding-bottom: 1em;
+        }
+        ol.u>li::marker {
+            content: "[U" counter(list-item) "]";
+        }
+        ol.j>li::marker {
+            content: "[J" counter(list-item) "]";
+        }
+        ol.c>li::marker {
+            content: "[C" counter(list-item) "]";
+        }
     </style>
 </head>
 <body>
+    <div id="top"></div>
     <div class="navigation">
         <p>
             <a href="/">Home</a> |
-            <a href="/biography">Biography</a> |
+            <a href="/bio">Bio</a> |
             <a href="/publications">Publications</a> |
             <a href="/projects">Projects</a>
         </p>
     </div>
     <header>
         <div class="namecard">
-            <div>
+            <div class="namecard text">
                 <h1>Inkyu Jang <small>(장인규)</small></h1>
                 <p>
                     Ph.D. Candidate <br>
-                    <a href="https://larr.snu.ac.kr" target="_blank">Lab for Autonomous Robotics Research (LARR)</a> <br>
-                    <a href="https://aerospace.snu.ac.kr" target="_blank">Department of Aerospace Engineering</a>, <a href="https://www.snu.ac.kr" target="_blank">Seoul National University</a>
+                    <a href="https://larr.snu.ac.kr">Lab for Autonomous Robotics Research (LARR)</a> <br>
+                    <a href="https://aerospace.snu.ac.kr">Department of Aerospace Engineering</a>, <a href="https://www.snu.ac.kr">Seoul National University</a>
                 </p>
                 <p>
                     <a href="mailto:janginkyu.larr@gmail.com">Email</a> |
-                    <a href="/files/cv.pdf" target="_blank">Curriculum Vitae</a> |
-                    <a href="https://www.linkedin.com/in/inkyu-jang-78a78a191/" target="_blank">LinkedIn</a> |
-                    <a href="https://scholar.google.com/citations?user=4gB8qkgAAAAJ" target="_blank">Google Scholar</a>
+                    <a href="/files/cv.pdf">Curriculum Vitae</a> |
+                    <a href="https://www.linkedin.com/in/inkyu-jang-78a78a191/">LinkedIn</a> |
+                    <a href="https://scholar.google.com/citations?user=4gB8qkgAAAAJ">Google Scholar</a>
                 </p>
             </div>
-            <img src="/img/janginkyu.png" alt="Your Photo">
+            <img src="/img/janginkyu.jpg" alt="Photo of Inkyu">
         </div>
     </header>
 
@@ -162,6 +218,7 @@
             Hi! This webpage is still under construction. Please come back later..
         </p>
         <hr>
+        
         <h2>Research Interests</h2>
         <ul>
             <li>
@@ -174,13 +231,171 @@
                 Mobile Robot Navigation
             </li>
         </ul>
+        
         <hr>
-        <h2>Education</h2>
-        <div>
-            
-        </div>
+
+        <h2>Bio</h2>
+        <p>
+            Inkyu Jang received the B.S. degree in mechanical engineering from Seoul National University, Seoul, Korea, in 2020. Starting from 2020, he is currently working towards a Ph.D. degree in aerospace engineering at Seoul National University, Seoul, Korea. His research interests include safety-critical control and motion planning for mobile robots.
+        </p>
         <hr>
-        <h2>Publications</h2>
+        
+        <h2>Publications <small>* equal contribution</small></h2>
+        
+        <h3>Manuscripts under Review</h3>
+        <ol class="pub u">
+            <li>
+                Safe receding horizon motion planning with infinitesimal update interval<br>
+                <b><u>I. Jang</u></b>, S. Hwang, J. Byun, and H. J. Kim <br>
+            </li>
+            <li>
+                Autonomous excavator for precise earthcutting and onboard landscape inspection<br>
+                <b><u>I. Jang*</u></b>, J. Kim*, D. Lee*, C. Kim*, C. Oh, Y. Kim, S. Woo, H. Sung, and H. J. Kim<br>
+            </li>
+        </ol>
+
+        <h3>Journal Articles</h3>
+        <ol class="pub j">
+            <li>
+                Safe control for navigation in cluttered space using multiple Lyapunov-based control barrier functions <br>
+                <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>IEEE Robotics and Automation Letters (<b>RA-L</b>)</i>, 2024. (in press) <br>
+                <a href="https://doi.org/10.1109/LRA.2024.3349917">Paper</a>
+            </li>
+            <li>
+                DLSC: Distributed multi-agent trajectory planning in maze-like dynamic environments using linear safe corridor <br>
+                J. Park, Y. Lee, <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>IEEE Transactions on Robotics (<b>T-RO</b>)</i>, vol. 39, no. 5, pp. 3739-3758, October 2023. <br>
+                <a href="https://doi.org/10.1109/TRO.2023.3279903">Paper</a> |
+                <a href="https://www.youtube.com/watch?v=FqZE9VlcfMU">Video</a>
+            </li>
+            <li>
+                A hybrid controller enhancing transient performance for an aerial manipulator extracting a wedged object <br>
+                J. Byun, <b><u>I. Jang</u></b>, D. Lee, and H. J. Kim <br>
+                <i>IEEE Transactions on Automation Science and Engineering (<b>T-ASE</b>)</i>, 2023. (in press) <br>
+                <a href="https://doi.org/10.1109/TASE.2023.3277508">Paper</a> |
+                <a href="https://www.youtube.com/watch?v=VAhxPIsFpnk">Video</a>
+            </li>
+            <li>
+                Real-time robust receding horizon planning using Hamilton-Jacobi reachability analysis <br>
+                H. Seo, D. Lee, C. Y. Son, <b><u>I. Jang</u></b>, C. J. Tomlin, and H. J. Kim <br>
+                <i>IEEE Transactions on Robotics (<b>T-RO</b>)</i>, vol. 39, no. 1, pp. 90-109, February 2023. <br>
+                <a href="https://doi.org/10.1109/TRO.2022.3187291">Paper</a>
+            </li>
+            <li>
+                Learning and generalizing cooperative manipulation skills using parametric dynamic movement primitives <br>
+                H. KIm, C. Oh, <b><u>I. Jang</u></b>, S. Park, H. Seo, and H. J. Kim <br>
+                <i>IEEE Transactions on Automation Science and Engineering (<b>T-ASE</b>)</i>, vol. 19, no. 4, pp. 3968-3979, October 2022. <br>
+                <a href="https://doi.org/10.1109/TASE.2022.3141460">Paper</a>
+            </li>
+            <li>
+                Fast computation of tight funnels for piecewise polynomial systems <br>
+                <b><u>I. Jang</u></b>, H. Seo, and H. J. Kim <br>
+                <i>IEEE Control Systems Letters (<b>L-CSS</b>)</i>, vol. 6, pp. 2234-2239, 2022. <br>
+                <a href="https://doi.org/10.1109/LCSYS.2021.3134101">Paper</a> |
+                <a href="/files/acc2022-presentation.pdf" target="_blank">Presentation Slides (ACC 2022)</a>
+            </li>
+            <li>
+                Aerial manipulator pushing a movable structure using a DOB-based robust controller <br>
+                D. Lee, H. Seo, <b><u>I. Jang</u></b>, S. J. Lee, and H. J. Kim <br>
+                <i>IEEE Robotics and Automation Letters (<b>RA-L</b>)</i>, vol. 6, no. 2, pp. 723-730, April 2021. <br>
+                <b>ICRA 2021 Best Paper Award on Unmanned Aerial Vehicles</b><br>
+                <a href="https://doi.org/10.1109/LRA.2020.3047779">Paper</a> |
+                <a href="https://www.youtube.com/watch?v=htWzBzq9BIs">Video</a>
+            </li>
+            <li>
+                Fail-safe flight of a fully-actuated quadrotor in a single motor failure <br>
+                S. J. Lee, <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>IEEE Robotics and Automation Letters (<b>RA-L</b>)</i>, vol. 5, no. 4, pp. 6403-6410, October 2020. <br>
+                <a href="https://doi.org/10.1109/LRA.2020.3013862">Paper</a>
+            </li>
+            <li>
+                Fully actuated autonomous flight of thruster-tilting multirotor <br>
+                S. J. Lee, D. Lee, J. Kim, D. Kim, <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>IEEE/ASME Transactions on Mechatronics (<b>T-MECH</b>)</i>, vol. 26, no. 2, pp. 765-776, April 2021. <br>
+                <a href="https://doi.org/10.1109/TMECH.2020.2999586">Paper</a> |
+                <a href="https://www.youtube.com/watch?v=-1MihNBS7Zw">Video</a>
+            </li>
+            <li>
+                Learning transformable and plannable se(3) features for scene imitation of a mobile service robot <br>
+                J. H. Park, J. Kim, Y. Jang, <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>IEEE Robotics and Automation Letters (<b>RA-L</b>)</i>, vol. 5, no. 2, pp. 1664-1671, April 2020. <br>
+                <a href="https://doi.org/10.1109/LRA.2020.2968032">Paper</a> |
+                <a href="https://www.youtube.com/watch?v=U-wDbIs1ePY">Video</a>
+            </li>
+        </ol>
+    
+        <h3>Peer-Reviewed Conference Papers</h3>
+        <ol class="pub c">
+            <li>
+                Invariance guarantees using continuously parametrized control barrier functions <br>
+                <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>2023 23rd International Conference on Control, Automation and Systems (<b>ICCAS</b>)</i> <br>
+                <b>ICCAS 2023 Best Student Paper Award</b><br>
+                <a href="/files/iccas2023-paper.pdf">Paper</a>
+            </li>
+            <li>
+                Safe and distributed multi-agent motion planning under minimum speed constraints <br>
+                <b><u>I. Jang</u></b>, J. Park, and H. J. Kim <br>
+                <i>2023 IEEE International Conference on Robotics and Automation (<b>ICRA</b>)</i> <br>
+                <a href="https://doi.org/10.1109/ICRA48891.2023.10160280">Paper</a> | 
+                <a href="https://www.youtube.com/watch?v=vuDcd1Ewehg">Video</a> | 
+                <a href="/files/icra2023-poster.pdf">Poster</a>
+            </li>
+            <li>
+                Decentralized deadlock-free trajectory planning for quadrotor swarm in obstacle-rich environments <br>
+                J. Park, <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>2023 IEEE International Conference on Robotics and Automation (<b>ICRA</b>)</i> <br>
+                <a href="https://doi.org/10.1109/ICRA48891.2023.10160847">Paper</a> | 
+                <a href="https://www.youtube.com/watch?v=4ibmahSMg98">Video</a>
+            </li>
+            <li>
+                DHRL: A graph-based approach for long-horizon and sparse hierarchical reinforcement learning <br>
+                S. Lee, J. Kim, <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>2022 36th Conference on Neural Information Processing Systems (<b>NeurIPS</b>)</i> <br>
+                <b>Oral Presentation</b> <br>
+                <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/58b286aea34a91a3d33e58af0586fa40-Abstract-Conference.html">Paper</a> | 
+                <a href="https://www.youtube.com/watch?v=re1zeoLHbas">Video</a>
+            </li>
+            <li>
+                Robust and recursively feasible real-time trajectory planning in unknown environments <br>
+                <b><u>I. Jang</u></b>, D. Lee, S. Lee, and H. J. Kim <br>
+                <i>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)</i> <br>
+                <a href="https://doi.org/10.1109/IROS51168.2021.9636048">Paper</a> | 
+                <a href="https://www.youtube.com/watch?v=pqe6jSrH1_w">Video</a>
+            </li>
+            <li>
+                Real-time motion planning of a hydraulic excavator using trajectory optimization and model predictive control <br>
+                D. Lee*, <b><u>I. Jang*</u></b>, J. Byun, H. Seo, and H. J. Kim <br>
+                <i>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)</i> <br>
+                <a href="https://doi.org/10.1109/IROS51168.2021.9635965">Paper</a> | 
+                <a href="https://www.youtube.com/watch?v=HAFVdU7jCl8">Video</a>
+            </li>
+            <li>
+                Stability and robustness analysis of plug-pulling using an aerial manipulator <br>
+                J. Byun, D. Lee, H. Seo, <b><u>I. Jang</u></b>, J. Choi, and H. J. Kim <br>
+                <i>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)</i> <br>
+                <a href="https://doi.org/10.1109/IROS51168.2021.9636356">Paper</a> | 
+                <a href="https://www.youtube.com/watch?v=eQZ1ae-tb7U">Video</a>
+            </li>
+            <li>
+                Provably safe real-time receding horizon trajectory planning for linear time-invariant systems <br>
+                <b><u>I. Jang</u></b>, D. Lee, and H. J. Kim <br>
+                <i>2020 20th International Conference on Control, Automation and Systems (<b>ICCAS</b>)</i> <br>
+                <b>ICCAS 2020 Outstanding Paper Award</b> <br>
+                <a href="https://doi.org/10.23919/ICCAS50221.2020.9268425">Paper</a> | 
+                <a href="/files/iccas2020-presentation.pdf">Presentation Slides</a>
+            </li>
+            <li>
+                Efficient multi-agent trajectory planning with feasibility guarantee using relative Bernstein polynomial <br>
+                J. Park, J. Kim, <b><u>I. Jang</u></b>, and H. J. Kim <br>
+                <i>2020 IEEE International Conference on Robotics and Automation (<b>ICRA</b>)</i> <br>
+                <b>ICRA 2020 Multi-Robot Systems Award Finalist</b> <br>
+                <a href="https://doi.org/10.1109/ICRA40945.2020.9197162">Paper</a> | 
+                <a href="https://www.youtube.com/watch?v=zzHHOYPARiM">Video</a>
+            </li>
+        </ol>
+
         <hr>
         <h2>Recent Projects</h2>
         <div class="projects">
@@ -237,7 +452,17 @@
         </div>
     </section>
 
+    <footer>
+        <div class="footer">
+            <p>Last Updated : January 18, 2024</p>
+        </div>
+    </footer>
+
     <script>
+        function getContent(content) {
+            alert(content);
+        }
+
         function playVideo(element) {
             var video = element.querySelector('video');
             video.play();
