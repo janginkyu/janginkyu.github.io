@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V67DNRC8M7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-V67DNRC8M7');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="title" content="{{ page.tile }} - {{ site.title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal homepage of Inkyu Jang">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <style>
+        body {
+            /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            font-size: 15px;
+        }
+
+        header, footer {
+            align-items: center;
+            background-color: #eeeeee;
+            border-color: #000000;
+            padding: 0em;
+        }
+
+        div.footer {
+            text-align: right;
+            max-width: 850px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            word-break: keep-all;
+        }
+
+        footer p {
+            font-size: 0.7em;
+            line-height: 0%;
+        }
+
+        div.navigation {
+            display: flex;
+            max-width: 850px;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.namecard {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 850px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            word-break: keep-all;
+        }
+
+        div.namecard div.text {
+            display: block;
+            align-items: center;
+            max-width: 70%;
+            padding: 0px;
+            margin: 0px;
+            min-width: 300px;
+        }
+
+        div.namecard img {
+            width: 200px;
+            border-radius: 30%;
+        }
+
+        div.full-block>div.left {
+            text-align: left;
+            max-width: 70%;
+        }
+        div.full-block>div.right {
+            max-width: 30%;
+            text-align: right;
+        }
+
+        section {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: #005090;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        small {
+            font-weight:normal;
+            font-size: 0.6em;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        p>strong {
+            font-size: 1.2em;
+        }
+
+        .projects {
+            margin-top: 20px;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .project:hover {
+            background-color: #e6e6e6; /* Change the color for hover effect */
+        }
+
+        .project img {
+            max-width: 100px; /* Adjust the width as needed */
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px; /* Added horizontal space between video and text */
+        }
+
+        .project div {
+            flex: 1;
+        }
+
+        .highlighted {
+            background-color: #ffeeba; /* Background color for important projects */
+        }
+
+        .highlighted:hover {
+            background-color: #ffcc80; /* Change the hover color for important projects */
+        }
+
+        ol.pub {
+            font-size: 0.9em;
+            line-height: 1.3em;
+        }
+        ol.pub>li {
+            padding-left: 1em;
+            padding-bottom: 1em;
+        }
+        ol.u>li::marker {
+            content: "[U" counter(list-item) "]";
+        }
+        ol.j>li::marker {
+            content: "[J" counter(list-item) "]";
+        }
+        ol.c>li::marker {
+            content: "[C" counter(list-item) "]";
+        }
+    </style>
+</head>
+<body>
+    <div id="top"></div>
+    <div class="navigation">
+        <p>
+            <a href="/">Home</a> |
+            <a href="/publications">Publications</a>
+        </p>
+    </div>
+    <header>
+        <div class="namecard">
+            <div class="namecard text">
+                <h1>Inkyu Jang <small>(장인규)</small></h1>
+                <p>
+                    Ph.D. Candidate <br>
+                    <a href="https://larr.snu.ac.kr">Lab for Autonomous Robotics Research (LARR)</a> <br>
+                    <a href="https://aerospace.snu.ac.kr">Department of Aerospace Engineering</a>, <a href="https://www.snu.ac.kr">Seoul National University</a>
+                </p>
+                <p>
+                    <a href="mailto:janginkyu.larr@gmail.com">Email</a> |
+                    <a href="/files/cv.pdf">Curriculum Vitae</a> |
+                    <a href="https://www.linkedin.com/in/inkyu-jang-78a78a191/">LinkedIn</a> |
+                    <a href="https://scholar.google.com/citations?user=4gB8qkgAAAAJ">Google Scholar</a>
+                </p>
+            </div>
+            <img src="/img/janginkyu.jpg" alt="Photo of Inkyu">
+        </div>
+    </header>
+
+    <section>
+      {{ content }}
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>Last Updated : {{ site.last-updated }}</p>
+        </div>
+    </footer>
+</body>
+</html>

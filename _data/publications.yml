@@ -1,0 +1,358 @@
+- title: Manuscripts under Review
+  classname: u
+  publications:
+
+  - title: Safe receding horizon motion planning with infinitesimal update interval
+    authors:
+      - I. Jang
+      - S. Hwang
+      - J. Byun
+      - H. J. Kim
+
+  - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
+    authors:
+      - I. Jang*
+      - J. Kim*
+      - D. Lee*
+      - C. Kim*
+      - C. Oh
+      - Y. Kim
+      - S. Woo
+      - H. Sung
+      - H. J. Kim
+
+- title: Journal Articles
+  classname: j
+  publications:
+
+    - title: Safe control for navigation in cluttered space using multiple Lyapunov-based control barrier functions
+      authors:
+        - I. Jang
+        - H. J. Kim
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RA-L
+        vol: 9
+        issue: 3
+        pages: 2056-2063
+        date: March 2024
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/LRA.2024.3349917
+
+    - title: "DLSC: Distributed multi-agent trajectory planning in maze-like dynamic environments using linear safe corridor"
+      authors:
+        - J. Park
+        - Y. Lee
+        - I. Jang
+        - H. J. Kim
+      journal:
+        name: IEEE Transactions on Robotics
+        abrv: T-RO
+        vol: 39
+        issue: 5
+        pages: 3739-3758
+        date: October 2023
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TRO.2023.3279903
+        - name: Video
+          link: https://www.youtube.com/watch?v=FqZE9VlcfMU
+
+    - title: A hybrid controller enhancing transient performance for an aerial manipulator extracting a wedged object
+      authors:
+        - J. Byun
+        - I. Jang
+        - D. Lee
+        - H. J. Kim
+      journal:
+        name: IEEE Transactions on Automation Science and Engineering
+        abrv: T-ASE
+        date: 2023
+        remark: in press
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TASE.2023.3277508
+        - name: Video
+          link: https://www.youtube.com/watch?v=VAhxPIsFpnk
+
+    - title: Real-time robust receding horizon planning using Hamilton-Jacobi reachability analysis
+      authors:
+        - H. Seo
+        - D. Lee
+        - C. Y. Son
+        - I. Jang
+        - C. J. Tomlin
+        - H. J. Kim
+      journal:
+        name: IEEE Transactions on Robotics
+        abrv: T-RO
+        date: February 2023
+        vol: 39
+        issue: 1
+        pages: 90-109
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TRO.2022.3187291
+
+    - title: Learning and generalizing cooperative manipulation skills using parametric dynamic movement primitives
+      authors:
+        - H. Kim
+        - C. Oh
+        - I. Jang
+        - S. Park
+        - H. Seo
+        - H. J. Kim
+      journal:
+        name: IEEE Transactions on Automation Science and Engineering
+        abrv: T-ASE
+        date: October 2022
+        vol: 19
+        issue: 4
+        pages: 3968-3979
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TASE.2022.3141460
+
+    - title: Fast computation of tight funnels for piecewise polynomial systems
+      authors:
+        - I. Jang
+        - H. Seo
+        - H. J. Kim
+      journal:
+        name: IEEE Control Systems Letters
+        abrv: L-CSS
+        date: 2022
+        vol: 6
+        pages: 2234-2239
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/LCSYS.2021.3134101
+        - name: Presentation Slides (ACC 2022)
+          link: /files/acc2022-presentation.pdf
+
+    - title: Aerial manipulator pushing a movable structure using a DOB-based robust controller
+      authors:
+        - D. Lee
+        - H. Seo
+        - I. Jang
+        - S. J. Lee
+        - H. J. Kim
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RA-L
+        date: April 2021
+        vol: 6
+        issue: 2
+        pages: 723-730
+      award: ICRA 2021 Best Paper Award on Unmanned Aerial Vehicles
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/LRA.2020.3047779
+        - name: Video
+          link: https://www.youtube.com/watch?v=htWzBzq9BIs
+
+    - title: Fail-safe flight of a fully-actuated quadrotor in a single motor failure
+      authors:
+        - S. J. Lee
+        - I. Jang
+        - H. J. Kim
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RA-L
+        date: October 2020
+        vol: 5
+        issue: 4
+        pages: 6403-6410
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/LRA.2020.3013862
+
+    - title: Fully actuated autonomous flight of thruster-tilting multirotor
+      authors:
+        - S. J. Lee
+        - D. Lee
+        - J. Kim
+        - D. Kim
+        - I. Jang
+        - H. J. Kim
+      journal:
+        name: IEEE/ASME Transactions on Mechatronics
+        abrv: T-MECH
+        date: April 2021
+        vol: 26
+        issue: 2
+        pages: 765-776
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TMECH.2020.2999586
+        - name: Video
+          link: https://www.youtube.com/watch?v=-1MihNBS7Zw
+
+    - title: Learning transformable and plannable se(3) features for scene imitation of a mobile service robot
+      authors:
+        - J. H. Park
+        - J. Kim
+        - Y. Jang
+        - I. Jang
+        - H. J. Kim
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RA-L
+        date: April 2020
+        vol: 5
+        issue: 2
+        pages: 1664-1671
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/LRA.2020.2968032
+        - name: Video
+          link: https://www.youtube.com/watch?v=U-wDbIs1ePY
+
+- title: Peer-Reviewed Conference Papers
+  classname: c
+  publications:
+
+    - title: Invariance guarantees using continuously parametrized control barrier functions
+      authors:
+        - I. Jang
+        - H. J. Kim
+      conference:
+        name: 2023 23rd International Conference on Control, Automation and Systems
+        abrv: ICCAS
+      award: ICCAS 2023 Best Student Paper Award
+      links:
+        - name: Paper
+          link: /files/iccas2023-paper.pdf
+          
+    - title: Safe and distributed multi-agent motion planning under minimum speed constraints
+      authors:
+        - I. Jang
+        - J. Park
+        - H. J. Kim
+      conference:
+        name: 2023 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/ICRA48891.2023.10160280
+        - name: Video
+          link: https://www.youtube.com/watch?v=vuDcd1Ewehg
+        - name: Poster
+          link: /files/icra2023-poster.pdf
+
+    - title: Decentralized deadlock-free trajectory planning for quadrotor swarm in obstacle-rich environments
+      authors:
+        - J. Park
+        - I. Jang
+        - H. J. Kim
+      conference:
+        name: 2023 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/ICRA48891.2023.10160847
+        - name: Video
+          link: https://www.youtube.com/watch?v=4ibmahSMg98
+
+    - title: "DHRL: A graph-based approach for long-horizon and sparse hierarchical reinforcement learning"
+      authors:
+        - S. Lee
+        - J. Kim
+        - I. Jang
+        - H. J. Kim
+      conference:
+        name: 2022 36th Conference on Neural Information Processing Systems
+        abrv: NeurIPS
+      award: Oral Presentation
+      links:
+        - name: Paper
+          link: https://proceedings.neurips.cc/paper_files/paper/2022/hash/58b286aea34a91a3d33e58af0586fa40-Abstract-Conference.html
+        - name: Video
+          link: https://www.youtube.com/watch?v=re1zeoLHbas
+
+    - title: Robust and recursively feasible real-time trajectory planning in unknown environments
+      authors:
+        - I. Jang
+        - D. Lee
+        - S. Lee
+        - H. J. Kim
+      conference:
+        name: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+        abrv: IROS
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/IROS51168.2021.9636048
+        - name: Video
+          link: https://www.youtube.com/watch?v=pqe6jSrH1_w
+
+    - title: Real-time motion planning of a hydraulic excavator using trajectory optimization and model predictive control
+      authors:
+        - D. Lee*
+        - I. Jang*
+        - J. Byun
+        - H. Seo
+        - H. J. Kim
+      conference:
+        name: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+        abrv: IROS
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/IROS51168.2021.9635965
+        - name: Video
+          link: https://www.youtube.com/watch?v=HAFVdU7jCl8
+
+    - title: Stability and robustness analysis of plug-pulling using an aerial manipulator
+      authors:
+        - J. Byun
+        - D. Lee
+        - H. Seo
+        - I. Jang
+        - J. Choi
+        - H. J. Kim
+      conference:
+        name: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+        abrv: IROS
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/IROS51168.2021.9636356
+        - name: Video
+          link: https://www.youtube.com/watch?v=eQZ1ae-tb7U
+
+    - title: Provably safe real-time receding horizon trajectory planning for linear time-invariant systems
+      authors:
+        - I. Jang
+        - D. Lee
+        - H. J. Kim
+      conference:
+        name: 2020 20th International Conference on Control, Automation and Systems
+        abrv: ICCAS
+      award: ICCAS 2020 Outstanding Paper Award
+      links:
+        - name: Paper
+          link: https://doi.org/10.23919/ICCAS50221.2020.9268425
+        - name: Presentation Slides
+          link: /files/iccas2020-presentation.pdf
+
+    - title: Efficient multi-agent trajectory planning with feasibility guarantee using relative Bernstein polynomial
+      authors:
+        - J. Park
+        - J. Kim
+        - I. Jang
+        - H. J. Kim
+      conference:
+        name: 2020 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+      award: ICRA 2020 Multi-Robot Systems Award Finalist
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/ICRA40945.2020.9197162
+        - name: Video
+          link: https://www.youtube.com/watch?v=zzHHOYPARiM
