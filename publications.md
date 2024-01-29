@@ -41,10 +41,9 @@ title: Publications
             {% endif %}
         {% endfor %}
         {% if pub.conference %}
+            <br><i>{{ pub.conference.name }} (<b>{{ pub.conference.abrv }}</b>)</i>
             {% if pub.conference.remark %}
-                <br><i>{{ pub.conference.name }} (<b>{{ pub.conference.abrv }}</b>)</i>, ({{ pub.conference.remark }})
-            {% else %}
-                <br><i>{{ pub.conference.name }} (<b>{{ pub.conference.abrv }}</b>)</i>
+                ({{ pub.conference.remark }})
             {% endif %}
         {% endif %}
         {% if pub.journal %}

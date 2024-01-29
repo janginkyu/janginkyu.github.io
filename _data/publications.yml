@@ -222,7 +222,7 @@
       conference:
         name: 2024 IEEE International Conference on Robotics and Automation
         abrv: ICRA
-        remark: to appear
+        remark: accepted
 
     - title: Invariance guarantees using continuously parametrized control barrier functions
       authors:
