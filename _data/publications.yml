@@ -2,13 +2,6 @@
   classname: u
   publications:
 
-  - title: Safe receding horizon motion planning with infinitesimal update interval
-    authors:
-      - I. Jang
-      - S. Hwang
-      - J. Byun
-      - H. J. Kim
-
   - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
     authors:
       - I. Jang*
@@ -219,6 +212,17 @@
 - title: Peer-Reviewed Conference Papers
   classname: c
   publications:
+
+    - title: Safe receding horizon motion planning with infinitesimal update interval
+      authors:
+        - I. Jang
+        - S. Hwang
+        - J. Byun
+        - H. J. Kim
+      conference:
+        name: 2024 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+        remark: to appear
 
     - title: Invariance guarantees using continuously parametrized control barrier functions
       authors:
