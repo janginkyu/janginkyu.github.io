@@ -40,6 +40,8 @@
       links:
         - name: Paper
           link: https://doi.org/10.1109/LRA.2024.3349917
+        - name: Video
+          link: https://www.youtube.com/watch?v=Mbw-RfjVwBg
 
     - title: "DLSC: Distributed multi-agent trajectory planning in maze-like dynamic environments using linear safe corridor"
       authors:
@@ -233,6 +235,8 @@
       links:
         - name: Paper
           link: /files/icra2024-paper.pdf
+        - name: Video
+          link: https://www.youtube.com/watch?v=wUK_EfWiFes
 
     - title: Invariance guarantees using continuously parametrized control barrier functions
       authors:
