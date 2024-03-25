@@ -2,24 +2,30 @@
   classname: u
   publications:
 
-  - title: Decentralized trajectory planning for quadrotor swarm in cluttered environments with goal convergence guarantee
-    authors:
-      - J. Park
-      - Y. Lee
-      - I. Jang
-      - H. J. Kim
+    - title: Leakage rate as a measure of continuous-time stochastic set Invariance
+      authors:
+        - I. Jang
+        - M. Yoon
+        - H. J. Kim
 
-  - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
-    authors:
-      - I. Jang*
-      - J. Kim*
-      - D. Lee*
-      - C. Kim*
-      - C. Oh
-      - Y. Kim
-      - S. Woo
-      - H. Sung
-      - H. J. Kim
+    - title: Decentralized trajectory planning for quadrotor swarm in cluttered environments with goal convergence guarantee
+      authors:
+        - J. Park
+        - Y. Lee
+        - I. Jang
+        - H. J. Kim
+
+    - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
+      authors:
+        - I. Jang*
+        - J. Kim*
+        - D. Lee*
+        - C. Kim*
+        - C. Oh
+        - Y. Kim
+        - S. Woo
+        - H. Sung
+        - H. J. Kim
 
 - title: Journal Articles
   classname: j

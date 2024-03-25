@@ -40,6 +40,9 @@ title: Publications
                 {% endif %}
             {% endif %}
         {% endfor %}
+        {% if pub.info %}
+            <br><i>{{ pub.info }}</i>
+        {% endif %}
         {% if pub.conference %}
             <br><i>{{ pub.conference.name }} (<b>{{ pub.conference.abrv }}</b>)</i>
             {% if pub.conference.remark %}
