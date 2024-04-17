@@ -1,8 +1,12 @@
 - title: Manuscripts under Review
   classname: u
   publications:
+    - title: Invariance guarantees using continuously parametrized control barrier functions
+      authors:
+        - I. Jang
+        - H. J. Kim
 
-    - title: Leakage rate as a measure of continuous-time stochastic set Invariance
+    - title: Leakage rate as a measure of continuous-time stochastic set invariance
       authors:
         - I. Jang
         - M. Yoon
