@@ -19,6 +19,10 @@
         - I. Jang
         - H. J. Kim
 
+- title: Journal Articles
+  classname: j
+  publications:
+
     - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
       authors:
         - I. Jang*
@@ -30,10 +34,11 @@
         - S. Woo
         - H. Sung
         - H. J. Kim
-
-- title: Journal Articles
-  classname: j
-  publications:
+      journal:
+        name: IEEE Robotics and Automation Magazine
+        abrv: RAM
+        date: 2024
+        remark: accepted
 
     - title: Safe control for navigation in cluttered space using multiple Lyapunov-based control barrier functions
       authors:
@@ -46,7 +51,6 @@
         issue: 3
         pages: 2056-2063
         date: March 2024
-      post:
       links:
         - name: Paper
           link: https://doi.org/10.1109/LRA.2024.3349917
@@ -66,7 +70,6 @@
         issue: 5
         pages: 3739-3758
         date: October 2023
-      post:
       links:
         - name: Paper
           link: https://doi.org/10.1109/TRO.2023.3279903
@@ -84,7 +87,6 @@
         abrv: T-ASE
         date: 2023
         remark: in press
-      post:
       links:
         - name: Paper
           link: https://doi.org/10.1109/TASE.2023.3277508
@@ -106,7 +108,6 @@
         vol: 39
         issue: 1
         pages: 90-109
-      post:
       links:
         - name: Paper
           link: https://doi.org/10.1109/TRO.2022.3187291
@@ -126,7 +127,6 @@
         vol: 19
         issue: 4
         pages: 3968-3979
-      post:
       links:
         - name: Paper
           link: https://doi.org/10.1109/TASE.2022.3141460
@@ -142,7 +142,6 @@
         date: 2022
         vol: 6
         pages: 2234-2239
-      post:
       links:
         - name: Paper
           link: https://doi.org/10.1109/LCSYS.2021.3134101
@@ -164,7 +163,6 @@
         issue: 2
         pages: 723-730
       award: ICRA 2021 Best Paper Award on Unmanned Aerial Vehicles
-      post:
       links:
         - name: Paper
           link: https://doi.org/10.1109/LRA.2020.3047779
