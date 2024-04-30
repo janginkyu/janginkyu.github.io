@@ -39,6 +39,9 @@
         abrv: RAM
         date: 2024
         remark: accepted
+      links:
+        - name: Video
+          link: https://www.youtube.com/watch?v=yt8_nfWuUsM
 
     - title: Safe control for navigation in cluttered space using multiple Lyapunov-based control barrier functions
       authors:
@@ -245,6 +248,10 @@
           link: /files/icra2024-paper.pdf
         - name: Video
           link: https://www.youtube.com/watch?v=wUK_EfWiFes
+        - name: Poster
+          link: /files/icra2024-poster.pdf
+        - name: Presentation Slides
+          link: /files/icra2024-presentation.pdf
 
     - title: Invariance guarantees using continuously parametrized control barrier functions
       authors:
