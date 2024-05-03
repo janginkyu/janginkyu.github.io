@@ -40,6 +40,8 @@
         date: 2024
         remark: accepted
       links:
+        - name: Paper
+          link: /files/ram2024-paper.pdf
         - name: Video
           link: https://www.youtube.com/watch?v=yt8_nfWuUsM
 
