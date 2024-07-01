@@ -1,7 +1,7 @@
 url: "https://janginkyu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Inkyu Jang" # the name of your site, e.g. ACME Corp.
-last-updated: May 3, 2024
+last-updated: July 1, 2024
 
 include:
   - _posts
