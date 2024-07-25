@@ -9,15 +9,6 @@
         - name: Paper
           link: /files/tac2024-paper.pdf
 
-    - title: Leakage rate as a measure of continuous-time stochastic set invariance
-      authors:
-        - I. Jang
-        - M. Yoon
-        - H. J. Kim
-      links:
-        - name: Paper
-          link: /files/cdc2024-paper.pdf
-
     - title: Decentralized trajectory planning for quadrotor swarm in cluttered environments with goal convergence guarantee
       authors:
         - J. Park
@@ -240,6 +231,19 @@
 - title: Peer-Reviewed Conference Papers
   classname: c
   publications:
+
+    - title: Leakage rate as a measure of continuous-time stochastic set invariance
+      authors:
+        - I. Jang
+        - M. Yoon
+        - H. J. Kim
+      conference:
+        name: 2024 63rd IEEE Conference on Decision and Control
+        abrv: CDC
+        remark: accepted
+      links:
+        - name: Paper
+          link: /files/cdc2024-paper.pdf
 
     - title: Safe receding horizon motion planning with infinitesimal update interval
       authors:
