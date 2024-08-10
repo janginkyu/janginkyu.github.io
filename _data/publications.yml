@@ -87,8 +87,10 @@
       journal:
         name: IEEE Transactions on Automation Science and Engineering
         abrv: T-ASE
-        date: 2023
-        remark: in press
+        date: July 2024
+        vol: 21
+        issue: 3
+        pages: 3264-3273
       links:
         - name: Paper
           link: https://doi.org/10.1109/TASE.2023.3277508
@@ -256,7 +258,7 @@
         abrv: ICRA
       links:
         - name: Paper
-          link: /files/icra2024-paper.pdf
+          link: https://doi.org/10.1109/ICRA57147.2024.10610158
         - name: Video
           link: https://www.youtube.com/watch?v=wUK_EfWiFes
         - name: Poster
