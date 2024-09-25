@@ -1,6 +1,14 @@
 - title: Manuscripts under Review
   classname: u
   publications:
+    - title: Enhancing feature tracking reliability for visual navigation using real-time safety filter
+      authors:
+        - D. Kim*
+        - I. Jang*
+        - Y. Han
+        - S. Hwang
+        - H. J. Kim
+
     - title: Invariance guarantees using continuously parametrized control barrier functions
       authors:
         - I. Jang
@@ -20,7 +28,19 @@
   classname: j
   publications:
 
-    - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
+    - title: "Safe motion planning and control for mobile robots: A survey"
+      authors:
+        - S. Hwang
+        - I. Jang
+        - D. Kim
+        - H. J. Kim
+      journal:
+        name: International Journal of Control, Automation, and Systems
+        abrv: IJCAS
+        date: 2024
+        remark: accepted
+
+    - title: "Towards fully integrated autonomous excavation: Autonomous excavator for precise earthcutting and onboard landscape inspection"
       authors:
         - I. Jang*
         - J. Kim*
