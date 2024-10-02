@@ -37,8 +37,13 @@
       journal:
         name: International Journal of Control, Automation, and Systems
         abrv: IJCAS
-        date: 2024
-        remark: accepted
+        vol: 22
+        issue: 10
+        pages: 2955-2969
+        date: October 2024
+      links:
+        - name: Paper
+          link: https://doi.org/10.1007/s12555-024-0784-5
 
     - title: "Towards fully integrated autonomous excavation: Autonomous excavator for precise earthcutting and onboard landscape inspection"
       authors:
@@ -55,10 +60,9 @@
         name: IEEE Robotics and Automation Magazine
         abrv: RAM
         date: 2024
-        remark: accepted
       links:
         - name: Paper
-          link: /files/ram2024-paper.pdf
+          link: https://doi.org/10.1109/MRA.2024.3400772
         - name: Video
           link: https://www.youtube.com/watch?v=yt8_nfWuUsM
 
