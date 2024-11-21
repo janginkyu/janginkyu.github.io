@@ -1,6 +1,14 @@
 - title: Manuscripts under Review
   classname: u
   publications:
+    - title: Upper bound on escape probability for stochastic control barrier functions
+      authors:
+        - I. Jang
+        - H. J. Kim
+      links:
+        - name: Paper
+          link: /files/tac2024-2-paper.pdf
+
     - title: Enhancing feature tracking reliability for visual navigation using real-time safety filter
       authors:
         - D. Kim*
