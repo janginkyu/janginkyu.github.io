@@ -25,16 +25,22 @@
         - name: Paper
           link: /files/tac2024-paper.pdf
 
+
+- title: Journal Articles
+  classname: j
+  publications:
+
     - title: Decentralized trajectory planning for quadrotor swarm in cluttered environments with goal convergence guarantee
       authors:
         - J. Park
         - Y. Lee
         - I. Jang
         - H. J. Kim
-
-- title: Journal Articles
-  classname: j
-  publications:
+      journal:
+        name: The International Journal of Robotics Research
+        abrv: IJRR
+        date: 2024
+        remark: accepted
 
     - title: "Safe motion planning and control for mobile robots: A survey"
       authors:
