@@ -9,14 +9,6 @@
         - name: Paper
           link: /files/tac2024-2-paper.pdf
 
-    - title: Enhancing feature tracking reliability for visual navigation using real-time safety filter
-      authors:
-        - D. Kim*
-        - I. Jang*
-        - Y. Han
-        - S. Hwang
-        - H. J. Kim
-
     - title: Invariance guarantees using continuously parametrized control barrier functions
       authors:
         - I. Jang
@@ -265,6 +257,21 @@
 - title: Peer-Reviewed Conference Papers
   classname: c
   publications:
+
+    - title: Enhancing feature tracking reliability for visual navigation using real-time safety filter
+      authors:
+        - D. Kim*
+        - I. Jang*
+        - Y. Han
+        - S. Hwang
+        - H. J. Kim
+      conference:
+        name: 2025 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+        remark: accepted
+      links:
+        - name: Paper
+          link: /files/icra2025-paper.pdf
 
     - title: Leakage rate as a measure of continuous-time stochastic set invariance
       authors:
