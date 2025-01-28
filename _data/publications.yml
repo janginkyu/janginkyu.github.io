@@ -287,10 +287,11 @@
       conference:
         name: 2024 63rd IEEE Conference on Decision and Control
         abrv: CDC
-        remark: accepted
       links:
         - name: Paper
           link: /files/cdc2024-paper.pdf
+        - name: Presentation Slides
+          link: /files/cdc2024-presentation.pdf
 
     - title: Safe receding horizon motion planning with infinitesimal update interval
       authors:
