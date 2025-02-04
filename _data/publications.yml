@@ -277,7 +277,9 @@
         remark: accepted
       links:
         - name: Paper
-          link: /files/icra2025-paper.pdf
+          link: https://arxiv.org/abs/2502.01092
+        - name: Video
+          link: https://www.youtube.com/watch?v=pZ9nvobevcs
 
     - title: Leakage rate as a measure of continuous-time stochastic set invariance
       authors:
