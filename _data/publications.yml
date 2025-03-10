@@ -31,8 +31,9 @@
       journal:
         name: The International Journal of Robotics Research
         abrv: IJRR
-        date: 2024
-        remark: accepted
+        date: 2025
+      links:
+        paper: https://doi.org/10.1177/02783649241312352
 
     - title: "Safe motion planning and control for mobile robots: A survey"
       authors:
@@ -274,7 +275,6 @@
       conference:
         name: 2025 IEEE International Conference on Robotics and Automation
         abrv: ICRA
-        remark: accepted
       links:
         - name: Paper
           link: https://arxiv.org/abs/2502.01092
@@ -291,7 +291,7 @@
         abrv: CDC
       links:
         - name: Paper
-          link: /files/cdc2024-paper.pdf
+          link: https://doi.org/10.1109/CDC56724.2024.10886813
         - name: Presentation Slides
           link: /files/cdc2024-presentation.pdf
 
