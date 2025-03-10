@@ -33,7 +33,8 @@
         abrv: IJRR
         date: 2025
       links:
-        paper: https://doi.org/10.1177/02783649241312352
+        - name: Paper
+          link: https://doi.org/10.1177/02783649241312352
 
     - title: "Safe motion planning and control for mobile robots: A survey"
       authors:
