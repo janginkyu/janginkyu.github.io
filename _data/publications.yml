@@ -1,26 +1,74 @@
 - title: Manuscripts under Review
   classname: u
   publications:
-    - title: Upper bound on escape probability for stochastic control barrier functions
-      authors:
-        - I. Jang
-        - H. J. Kim
-      links:
-        - name: Paper
-          link: /files/tac2024-2-paper.pdf
-
     - title: Invariance guarantees using continuously parametrized control barrier functions
       authors:
         - I. Jang
         - H. J. Kim
       links:
         - name: Paper
-          link: /files/tac2024-paper.pdf
+          link: https://arxiv.org/abs/2507.12743
 
+    - title: Demonstration of space robot teleoperation over a lossy and delayed network using ATMOS
+      authors:
+        - I. Jang*
+        - G. Marchesini*
+        - N. De Carli
+        - B. Kim
+        - S. Hwang
+        - D. Kim
+        - E. Krantz
+        - Y. Kong
+        - F. J. Jiang
+        - A. Wong
+        - P. Roque
+        - P. W. L. Sanjaya
+        - N. Bastianello
+        - M. H. Dhullipalla
+        - K. H. Johansson
+        - H. Shim
+        - D. V. Dimarogonas
+        - H. J. Kim
+      links:
+        - name: Paper
+          link: /files/ifac2026-paper.pdf
+
+    - title: "EigenSafe: A spectral framework for learning-based probabilistic safety assessment"
+      authors:
+        - I. Jang*
+        - J. Park*
+        - S. Cho
+        - C. E. Mballo
+        - C. J. Tomlin
+        - H. J. Kim
+      links:
+        - name: Paper
+          link: https://arxiv.org/abs/2509.17750
+        - name: Project Page
+          link: https://eigen-safe.github.io
+
+    - title: A spectral perspective on stochastic control barrier functions
+      authors:
+        - I. Jang
+        - C. E. Mballo
+        - C. J. Tomlin
+        - H. J. Kim
 
 - title: Journal Articles
   classname: j
   publications:
+
+    - title: Upper bound on escape probability for stochastic control barrier functions
+      authors:
+        - I. Jang
+        - H. J. Kim
+      journal:
+        name: IEEE Transactions on Automatic Control
+        abrv: TAC
+        date: 2025
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TAC.2025.3638059
 
     - title: Decentralized trajectory planning for quadrotor swarm in cluttered environments with goal convergence guarantee
       authors:
@@ -31,7 +79,10 @@
       journal:
         name: The International Journal of Robotics Research
         abrv: IJRR
-        date: 2025
+        vol: 44
+        issue: 8
+        pages: 1336-1359
+        date: July 2025
       links:
         - name: Paper
           link: https://doi.org/10.1177/02783649241312352
@@ -67,7 +118,10 @@
       journal:
         name: IEEE Robotics and Automation Magazine
         abrv: RAM
-        date: 2024
+        vol: 32
+        issue: 3
+        pages: 88-102
+        date: September 2025
       links:
         - name: Paper
           link: https://doi.org/10.1109/MRA.2024.3400772
@@ -265,6 +319,43 @@
 - title: Peer-Reviewed Conference Papers
   classname: c
   publications:
+    - title: Periodic skill discovery
+      authors:
+        - J. Park
+        - D. Cho
+        - J. Lee
+        - D. Shim
+        - I. Jang
+        - H. J. Kim
+      conference:
+        name: 2025 39th Conference on Neural Information Processing Systems
+        abrv: NeurIPS
+      links:
+        - name: Paper
+          link: https://arxiv.org/abs/2511.03187
+        - name: Project Page
+          link: https://jonghaepark.github.io/psd/
+    
+    - title: Necessary and sufficient conditions for data-driven identification of nonlinear systems with linear embedding 
+      authors:
+        - Y. Kong
+        - I. Jang
+        - H. J. Kim
+      conference:
+        name: 2025 25th International Conference on Control, Automation and Systems
+        abrv: ICCAS
+    
+    - title: Iterative residual dynamic mode decomposition for prediction and control of dynamical systems
+      authors:
+        - Y. Kong*
+        - I. Jang*
+        - H. J. Kim
+      conference:
+        name: 2025 64th IEEE Conference on Decision and Control
+        abrv: CDC
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/CDC57313.2025.11312060
 
     - title: Enhancing feature tracking reliability for visual navigation using real-time safety filter
       authors:
@@ -451,3 +542,22 @@
           link: https://doi.org/10.1109/ICRA40945.2020.9197162
         - name: Video
           link: https://www.youtube.com/watch?v=zzHHOYPARiM
+
+- title: Workshop Presentations
+  classname: w
+  publications:
+    - title: "EigenSafe: A Spectral Framework for Learning-Based Stochastic Safety Filtering"
+      authors:
+        - I. Jang
+        - J. Park
+        - C. E. Mballo
+        - S. Cho
+        - C. J. Tomlin
+        - H. J. Kim
+      conference:
+        name: Workshop on Safe and Robust Robot Learning for Operation in the Real World (SAFE-ROL) at CoRL 2025
+      links:
+        - name: Paper
+          link: https://arxiv.org/abs/2509.17750v1
+      award: Oral Presentation
+      
