@@ -54,11 +54,11 @@ title: Publications
             {% endif %}
         {% endif %}
         {% if pub.journal %}
-            <br><i>{{ pub.journal.name }}
             {% if pub.journal.abrv %}
-                (<b>{{ pub.journal.abrv }}</b>)
+                <br><i>{{ pub.journal.name }} (<b>{{ pub.journal.abrv }}</b>)</i>,
+            {% else %}
+                <br><i>{{ pub.journal.name }}</i>,
             {% endif %}
-            </i>,
             {% if pub.journal.vol %}
                 vol. {{ pub.journal.vol }},
             {% endif %}

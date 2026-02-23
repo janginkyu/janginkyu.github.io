@@ -546,7 +546,7 @@
 - title: Workshop Presentations
   classname: w
   publications:
-    - title: "EigenSafe: A Spectral Framework for Learning-Based Stochastic Safety Filtering"
+    - title: "EigenSafe: A spectral framework for learning-based stochastic safety filtering"
       authors:
         - I. Jang
         - J. Park
