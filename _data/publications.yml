@@ -559,5 +559,9 @@
       links:
         - name: Paper
           link: https://arxiv.org/abs/2509.17750v1
-      award: Oral Presentation
-      
+        - name: Poster
+          link: /files/corlw2025-poster.pdf
+        - name: Presentation Slides
+          link: /files/corlw2025-presentation.pdf
+      award: Oral Presentation (Top 4)
+

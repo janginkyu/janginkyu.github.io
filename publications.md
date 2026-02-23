@@ -44,13 +44,21 @@ title: Publications
             <br><i>{{ pub.info }}</i>
         {% endif %}
         {% if pub.conference %}
-            <br><i>{{ pub.conference.name }} (<b>{{ pub.conference.abrv }}</b>)</i>
+            <br><i>{{ pub.conference.name }}
+            {% if pub.conference.abrv %}
+                (<b>{{ pub.conference.abrv }}</b>)
+            {% endif %}
+            </i>
             {% if pub.conference.remark %}
                 ({{ pub.conference.remark }})
             {% endif %}
         {% endif %}
         {% if pub.journal %}
-            <br><i>{{ pub.journal.name }} (<b>{{ pub.journal.abrv }}</b>)</i>,
+            <br><i>{{ pub.journal.name }}
+            {% if pub.journal.abrv %}
+                (<b>{{ pub.journal.abrv }}</b>)
+            {% endif %}
+            </i>,
             {% if pub.journal.vol %}
                 vol. {{ pub.journal.vol }},
             {% endif %}
