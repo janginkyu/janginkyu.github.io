@@ -53,10 +53,22 @@
         - C. E. Mballo
         - C. J. Tomlin
         - H. J. Kim
+      links:
+        - name: Paper
+          link: https://arxiv.org/abs/2603.19813
 
 - title: Journal Articles
   classname: j
   publications:
+    - title: Learning solutions of PDEs with symmetry and Kolmogorov-Arnold neural network
+      authors:
+        - M. Yoon
+        - I. Jang
+        - H. J. Kim
+      journal:
+        name: International Journal of Control, Automation, and Systems
+        abrv: IJCAS
+        date: 2026
 
     - title: Upper bound on escape probability for stochastic control barrier functions
       authors:
@@ -369,7 +381,7 @@
         abrv: ICRA
       links:
         - name: Paper
-          link: https://arxiv.org/abs/2502.01092
+          link: https://doi.org/10.1109/ICRA55743.2025.11128371
         - name: Video
           link: https://www.youtube.com/watch?v=pZ9nvobevcs
 
