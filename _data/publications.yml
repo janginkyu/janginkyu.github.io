@@ -45,6 +45,9 @@
         name: International Journal of Control, Automation, and Systems
         abrv: IJCAS
         date: 2026
+      links:
+        - name: Paper
+          link: https://doi.org/10.1007/s12555-026-00077-8
 
     - title: Upper bound on escape probability for stochastic control barrier functions
       authors:
